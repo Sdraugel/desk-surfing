@@ -1,3 +1,5 @@
+<img src="https://github.com/Sdraugel/Journey-to-a-Black-Hole/blob/master/app_icon5.jpg" width="200" height="200" />
+
 # deskSurfing
 
 This piece of software was designed to: 
