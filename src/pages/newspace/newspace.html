@@ -1,0 +1,68 @@
+<!--
+  Generated template for the Newspace page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+
+
+</ion-header>
+
+<ion-content padding>
+  <div class="newspace">
+
+    <form [formGroup]="authForm" (ngSubmit)="submitForm(authForm.value)">
+      <p>Name the space</p>
+      <ion-item>
+        <ion-input type="text" value="" [formControl]="authForm.controls['name']" placeholder="Name"></ion-input>
+      </ion-item>
+
+      <p>Number of spaces</p>
+      <ion-item>
+        <ion-range min="0" max="10" pin="true" snaps="true" [formControl]="authForm.controls['numSpaces']" [(ngModel)]="brightness"></ion-range>
+      </ion-item>
+
+      <p>Location</p>
+      <ion-item>
+        <ion-input type="text" value=""  placeholder="Site (HNA, MARC, etc.)" [formControl]="authForm.controls['site']"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" value=""  placeholder="Building" [formControl]="authForm.controls['building']"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" value=""  placeholder="Floor" [formControl]="authForm.controls['floor']"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="number" value=""  placeholder="Desk" [formControl]="authForm.controls['desk']"></ion-input>
+      </ion-item>
+
+      <p>Date</p>
+      <ion-item>
+        <ion-input type="date" value=""  placeholder="Date From" [formControl]="authForm.controls['date_from']"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="date" value=""  placeholder="Date To" [formControl]="authForm.controls['date_to']"></ion-input>
+      </ion-item>
+
+
+      <div class="description">
+        <p>Description</p>
+        <ion-item>
+          <ion-input type="text" placeholder="Short description (Example: Network plug and screen available" [formControl]="authForm.controls['description']"></ion-input>
+        </ion-item>
+      </div>
+
+      <br>
+      <div class="submit">
+        <button type="submit" ion-button >Create</button>
+      </div>
+    </form>
+    <div class="cancel">
+      <button ion-button navPop>Cancel</button>
+    </div>
+
+  </div>
+
+</ion-content>

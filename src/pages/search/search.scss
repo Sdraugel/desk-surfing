@@ -1,0 +1,19 @@
+page-search {
+
+  ion-item {
+    border-radius: 10px;
+    text-decoration: none;
+    margin:auto;
+  }
+
+  .item-inner {
+    border-bottom-color: transparent !important;
+    box-shadow: none !important;
+  }
+
+  ion-title {
+    text-align: center;
+    margin-right: 10%;
+  }
+
+}
