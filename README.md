@@ -1,7 +1,5 @@
 <img src="https://github.com/Sdraugel/desk-surfing/blob/master/src/assets/images/dsu_logo.png" width="200" height="200" />
 
-# deskSurfing
-
 This piece of software was designed to: 
  1. Allow Michelin employees to open their workspace for other Michelin employees to use
  2. Allow Michelin employess to reserve open workspaces at Michelin
