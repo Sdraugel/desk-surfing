@@ -1,8 +1,8 @@
 <img src="https://github.com/Sdraugel/desk-surfing/blob/master/src/assets/images/dsu_logo.png" width="200" height="200" />
 
 This piece of software was designed to: 
- 1. Allow Michelin employees to open their workspace for other Michelin employees to use
- 2. Allow Michelin employess to reserve open workspaces at Michelin
+ 1. Allow employees to open their workspace for other employees to use
+ 2. Allow employess to reserve open workspaces.
 
 ## Installation
 
@@ -15,9 +15,6 @@ This piece of software was designed to:
 * Import the source folder in to a blank Ionic project
 
 
-## Usage
-
-This software is used by Michelin employees. All others can use this application as an example of hybrid mobile development. 
 
 ## Contributing
 
@@ -34,4 +31,4 @@ This software is used by Michelin employees. All others can use this application
 
 ## License
 
-Licensed to Steven Draugel and Michelin. All others may use code written here with credit given to this source.
+Licensed to Steven Draugel. All others may use code written here with credit given to this source.
